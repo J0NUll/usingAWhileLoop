@@ -28,6 +28,15 @@ describe('My Login application', () => {
         }
 
 
+        while (await expect (dynamitcally.message).not.toBeDisplayed() ) {
+
+            example1 = false; 
+            conosle.log("the h4 is currently not visible"); 
+        }
+
+
+
+
         
     })
 
